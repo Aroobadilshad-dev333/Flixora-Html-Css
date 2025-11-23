@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins";
+    font-family: "sans-sarif";
 }
 body {
     background: #000;
@@ -12,7 +12,7 @@ body {
 .header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(hero-img.jpg);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)55%,rgba(0,0,0,0.5)55%), url(hero-image.jpg);
     background-size: cover;
     background-position: center;
     padding: 10px 10%;
@@ -27,12 +27,15 @@ nav {
 }
 
 .logo{
-    width: 150px;
-    cursor: pointer;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 nav button{
     border: 0;
+    border-radius: 8px;
     outline: 0;
     background: #db0001;
     color: #fff;
